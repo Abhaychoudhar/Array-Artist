@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.company-icon img {
+    
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box:last-child {
+    margin-right: 0;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.85); /* Increase the size when hovered */
+    box-shadow: 0 0 20px rgba(196, 99, 99, 0.2); /* Add a shadow effect when hovered */
+}
+
+.friendlist {
+    background-color: #e6f7ff; /* Light Blue */
+}
+
+.active-chats {
+    background-color: #fff3e6; /* Light Orange */
+}
+
+.recommendations {
+    background-color: #f0f0f0; /* Light Gray */
+}
+
+.friendlist:hover {
+    background-color: #f1ac3c; /* Lighter Blue when hovered */
+}
+
+.active-chats:hover {
+    background-color: #f0f3f6; /* Lighter Orange when hovered */
+}
+
+.recommendations:hover {
+    background-color: #3ddd3d; /* Lighter Gray when hovered */
+}
+

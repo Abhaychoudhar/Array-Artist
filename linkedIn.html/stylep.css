@@ -1,0 +1,91 @@
+h2 {
+    text-align: center;
+    color: #333;
+    transition: color 0.3s ease; 
+}
+
+h2:hover {
+    color: #7642d1; 
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.login-container {
+    background-color: #db0c0c;
+    height: 300px ;
+    width: 500px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #b3005f;
+}
+.name {
+    margin-bottom: 20px;
+    position: relative; 
+    font-family: sans-serif;
+}
+
+.name h1 {
+    font-size: 90px;
+    color: #f00909;
+    transition: color 0.3s ease; 
+}
+
+.name:hover h1::after {
+    font-size: larger;
+    content: " - GROW FASTER"; 
+    position: absolute;
+    bottom: -20px; 
+    left: 0;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #eff5f1; 
+}
+.name{
+    margin-left: 600px;
+    margin-top: 100px;
+    color:#b3005f;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;}
